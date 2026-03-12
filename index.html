@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FXVault – Legal Documents</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000000;
+      color: #E6EDF3;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 40px 20px;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container { max-width: 560px; width: 100%; }
+    .brand {
+      display: flex; align-items: center; gap: 12px;
+      margin-bottom: 48px;
+    }
+    .brand-dot {
+      width: 14px; height: 14px; border-radius: 50%;
+      background: #00FFCC;
+      box-shadow: 0 0 10px #00FFCC;
+      flex-shrink: 0;
+    }
+    .brand-name { font-size: 24px; font-weight: 700; color: #00FFCC; }
+    .brand-tagline { font-size: 13px; color: #7D8590; margin-top: 2px; }
+    h1 {
+      font-size: 22px; font-weight: 600;
+      color: #E6EDF3; margin-bottom: 8px;
+    }
+    .subtitle { color: #7D8590; font-size: 14px; margin-bottom: 40px; }
+    .doc-grid { display: flex; flex-direction: column; gap: 12px; }
+    .doc-card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: #0D1117;
+      border: 1px solid #21262D;
+      border-radius: 12px;
+      padding: 20px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .doc-card:hover {
+      border-color: #00FFCC;
+      background: #0D1B1B;
+      text-decoration: none;
+    }
+    .doc-icon {
+      font-size: 28px;
+      flex-shrink: 0;
+      width: 44px;
+      text-align: center;
+    }
+    .doc-info { flex: 1; }
+    .doc-title { font-size: 16px; font-weight: 600; color: #E6EDF3; margin-bottom: 3px; }
+    .doc-desc { font-size: 13px; color: #7D8590; }
+    .doc-card.amber { border-color: rgba(245,158,11,0.3); }
+    .doc-card.amber:hover { border-color: #F59E0B; background: #1A1200; }
+    .doc-card.amber .doc-title { color: #F59E0B; }
+    .arrow { color: #7D8590; font-size: 18px; flex-shrink: 0; }
+    .footer {
+      margin-top: 48px;
+      color: #7D8590;
+      font-size: 13px;
+      text-align: center;
+    }
+    .footer a { color: #00B4D8; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand">
+      <div class="brand-dot"></div>
+      <div>
+        <div class="brand-name">FXVault</div>
+        <div class="brand-tagline">All-in-One Trading Tools</div>
+      </div>
+    </div>
+
+    <h1>Legal Documents</h1>
+    <p class="subtitle">All legal documents for the FXVault mobile application.</p>
+
+    <div class="doc-grid">
+      <a class="doc-card" href="privacy.html">
+        <div class="doc-icon">🔒</div>
+        <div class="doc-info">
+          <div class="doc-title">Privacy Policy</div>
+          <div class="doc-desc">How we handle your data</div>
+        </div>
+        <div class="arrow">›</div>
+      </a>
+
+      <a class="doc-card" href="terms.html">
+        <div class="doc-icon">📄</div>
+        <div class="doc-info">
+          <div class="doc-title">Terms of Service</div>
+          <div class="doc-desc">Rules for using FXVault</div>
+        </div>
+        <div class="arrow">›</div>
+      </a>
+
+      <a class="doc-card amber" href="disclaimer.html">
+        <div class="doc-icon">⚠️</div>
+        <div class="doc-info">
+          <div class="doc-title">Financial Disclaimer</div>
+          <div class="doc-desc">Risk disclosure — please read</div>
+        </div>
+        <div class="arrow">›</div>
+      </a>
+
+      <a class="doc-card" href="refund.html">
+        <div class="doc-icon">🧾</div>
+        <div class="doc-info">
+          <div class="doc-title">Refund Policy</div>
+          <div class="doc-desc">Subscriptions &amp; cancellations</div>
+        </div>
+        <div class="arrow">›</div>
+      </a>
+    </div>
+
+    <div class="footer">
+      © 2026 FXVault ·
+      <a href="mailto:support@fxvault.app">support@fxvault.app</a>
+    </div>
+  </div>
+</body>
+</html>
